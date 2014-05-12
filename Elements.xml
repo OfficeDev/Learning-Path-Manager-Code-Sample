@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="App\app.js" Url="App/app.js" ReplaceContent="TRUE" />
+    <File Path="App\layout\shell.html" Url="App/layout/shell.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\shell.js" Url="App/layout/shell.js" ReplaceContent="TRUE" />
+    <File Path="App\common\logger.js" Url="App/common/logger.js" ReplaceContent="TRUE" />
+    <File Path="App\common\common.js" Url="App/common/common.js" ReplaceContent="TRUE" />
+    <File Path="App\config.js" Url="App/config.js" ReplaceContent="TRUE" />
+    <File Path="App\config.exceptionHandler.js" Url="App/config.exceptionHandler.js" ReplaceContent="TRUE" />
+    <File Path="App\config.route.js" Url="App/config.route.js" ReplaceContent="TRUE" />
+    <File Path="App\learningPath\learningPaths.html" Url="App/learningPath/learningPaths.html" ReplaceContent="TRUE" />
+    <File Path="App\learningPath\learningPaths.js" Url="App/learningPath/learningPaths.js" ReplaceContent="TRUE" />
+    <File Path="App\util\jquery-extensions.js" Url="App/util/jquery-extensions.js" ReplaceContent="TRUE" />
+    <File Path="App\learningItem\learningItems.js" Url="App/learningItem/learningItems.js" ReplaceContent="TRUE" />
+    <File Path="App\learningItem\learningItems.html" Url="App/learningItem/learningItems.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\spAppChrome.html" Url="App/layout/spAppChrome.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\spAppChrome.js" Url="App/layout/spAppChrome.js" ReplaceContent="TRUE" />
+    <File Path="App\appLauncher.js" Url="App/appLauncher.js" ReplaceContent="TRUE" />
+    <File Path="App\services\spContext.js" Url="App/services/spContext.js" ReplaceContent="TRUE" />
+    <File Path="App\layout\quicklaunch.html" Url="App/layout/quicklaunch.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\quicklaunch.js" Url="App/layout/quicklaunch.js" ReplaceContent="TRUE" />
+    <File Path="App\layout\header.html" Url="App/layout/header.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\header.js" Url="App/layout/header.js" ReplaceContent="TRUE" />
+    <File Path="App\dashboard\dashboard.html" Url="App/dashboard/dashboard.html" ReplaceContent="TRUE" />
+    <File Path="App\dashboard\dashboard.js" Url="App/dashboard/dashboard.js" ReplaceContent="TRUE" />
+    <File Path="App\learningPath\learningPathsDetail.html" Url="App/learningPath/learningPathsDetail.html" ReplaceContent="TRUE" />
+    <File Path="App\learningPath\learningPathsDetail.js" Url="App/learningPath/learningPathsDetail.js" ReplaceContent="TRUE" />
+    <File Path="App\learningItem\learningItemsDetail.html" Url="App/learningItem/learningItemsDetail.html" ReplaceContent="TRUE" />
+    <File Path="App\learningItem\learningItemsDetail.js" Url="App/learningItem/learningItemsDetail.js" ReplaceContent="TRUE" />
+    <File Path="App\models\learningPath.js" Url="App/models/learningPath.js" ReplaceContent="TRUE" />
+    <File Path="App\layout\workingonit.html" Url="App/layout/workingonit.html" ReplaceContent="TRUE" />
+    <File Path="App\layout\workingonit.js" Url="App/layout/workingonit.js" ReplaceContent="TRUE" />
+    <File Path="App\services\datacontext.angular.js" Url="App/services/datacontext.angular.js" ReplaceContent="TRUE" />
+    <File Path="App\config.angular.http.js" Url="App/config.angular.http.js" ReplaceContent="TRUE" />
+    <File Path="App\models\learningItem.js" Url="App/models/learningItem.js" ReplaceContent="TRUE" />
+    <File Path="App\workflowform\initform.html" Url="App/workflowform/initform.html" ReplaceContent="TRUE" />
+    <File Path="App\workflowform\initform.js" Url="App/workflowform/initform.js" ReplaceContent="TRUE" />
+    <File Path="App\services\spWorkflow.js" Url="App/services/spWorkflow.js" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.woff" Url="fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.ttf" Url="fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.svg" Url="fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\fontawesome-webfont.eot" Url="fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="fonts\FontAwesome.otf" Url="fonts/FontAwesome.otf" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

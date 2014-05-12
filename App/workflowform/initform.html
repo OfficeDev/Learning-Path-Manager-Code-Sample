@@ -1,0 +1,20 @@
+﻿<div data-ng-controller="initform as vm">
+  <table>
+    <tr>
+      <td>
+        Select the name of a user who should be assigned the task to approve this learning path approval request:
+        <br />
+        <br />
+        <div id="peoplePickerDiv"></div>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" data-ng-click="vm.startWorkflow()" value="Start Approval Request" />
+        <input type="button" data-ng-click="vm.goBack()" value="Cancel" />
+        <br />
+      </td>
+    </tr>
+  </table>
+</div>

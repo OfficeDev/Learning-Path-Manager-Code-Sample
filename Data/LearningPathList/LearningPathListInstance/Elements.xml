@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Learning Paths" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/LearningPaths" Description="Data store for learning paths">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Development Overview</Field>
+          <Field Name="_Comments">Learning the fundamentals of SharePoint 2013 development.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 App Development</Field>
+          <Field Name="_Comments">Learn what you need to create apps on the SharePoint 2013 platform.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Client-Side / Remote Development</Field>
+          <Field Name="_Comments">Learn how to create applications that communicate from SharePoint from outside the SharePoint environment. This includes applications that run exclusively in the browser or on external servers.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Workflow</Field>
+          <Field Name="_Comments">Learn how to create custom workflows to automate business processes in the new workflow engine in SharePoint 2013.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Single Page Applications</Field>
+          <Field Name="_Comments">Learn how to create single page applications in the browser.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AngularJS: Browser-based Client Side Presentation Framework</Field>
+          <Field Name="_Comments">Learn how to use the AngularJS presentation from Google to create client-side applications.</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,18 @@
+﻿<div data-ng-controller="quicklaunch as vm"
+     id="sideNavBox" class="ms-dialogHidden ms-forceWrap ms-noList">
+  <div class="ms-core-navigation" role="navigation">
+    <a id="startNavigation" name="startNavigation"></a>
+    <div class="ms-core-sideNavBox-removeLeftMargin">
+      <div class="noindex ms-core-listMenu-verticalBox">
+        <ul class="noindex ms-core-listMenu-root static">
+          <li class="static" data-ng-repeat="route in vm.navRoutes" data-ng-class="{selected: vm.isCurrent(route)}">
+            <a href="#{{route.url}}"
+               data-ng-bind-html="route.config.settings.content"
+               class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode"
+               data-ng-class="{selected:vm.isCurrent(route), 'ms-core-listMenu-selected':vm.isCurrent(route)}"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

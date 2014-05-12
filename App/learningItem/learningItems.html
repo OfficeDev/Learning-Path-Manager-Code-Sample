@@ -1,0 +1,52 @@
+﻿<div data-ng-controller="learningItems as vm">
+  <table dir="none" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+      <tr>
+        <td class="ms-list-addnew ms-textXLarge ms-list-addnew-aligntop ms-soften">
+          <a href="{{vm.newLearningItemUrl()}}" class="ms-heroCommandLink">
+            <span class="ms-list-addnew-imgSpan20">
+              <img src="/_layouts/15/images/spcommon.png" class="ms-list-addnew-img20" />
+            </span>
+            <span>new learning item</span>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table border="0" cellspacing="0" cellpadding="1" class="ms-listviewtable">
+    <thead>
+      <tr valign="top" class="ms-viewheadertr ms-vhltr">
+        <th scope="col" style="max-width: 500px" class="ms-vh2">
+          <div displayname="Title" class="ms-vh-div">
+            <a class="ms-headerSortTitleLink">Title</a>
+          </div>
+        </th>
+        <th scope="col" style="max-width: 500px" class="ms-vh2">
+          <div displayname="Title" class="ms-vh-div">
+            <a class="ms-headerSortTitleLink">Item Type</a>
+          </div>
+        </th>
+        <th scope="col" style="max-width: 500px" class="ms-vh2">
+          <div displayname="Title" class="ms-vh-div">
+            <a class="ms-headerSortTitleLink">URL</a>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="ms-itmHoverEnabled ms-itmhover"
+          data-ng-repeat="item in vm.learningItems"
+          data-ng-click="vm.gotoItem(item)">
+        <td class="ms-vb-lastCell ms-cellstyle ms-vb2 ms-vb-lastCell">
+          <div class="ms-rtestate-field">{{item.Title}}</div>
+        </td>
+        <td class="ms-vb-lastCell ms-cellstyle ms-vb2 ms-vb-lastCell">
+          <div class="ms-rtestate-field">{{item.ItemType}}</div>
+        </td>
+        <td class="ms-vb-lastCell ms-cellstyle ms-vb2 ms-vb-lastCell">
+          <div class="ms-rtestate-field">{{item.Url}}</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

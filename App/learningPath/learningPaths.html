@@ -1,0 +1,66 @@
+﻿<div data-ng-controller="learningPaths as vm">
+  <table dir="none" cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+      <tr>
+        <td class="ms-list-addnew ms-textXLarge ms-list-addnew-aligntop ms-soften">
+          <a href="#/LearningPaths/new" class="ms-heroCommandLink">
+            <span class="ms-list-addnew-imgSpan20">
+              <img src="/_layouts/15/images/spcommon.png" class="ms-list-addnew-img20"/>
+            </span>
+            <span>new learning path</span>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table border="0" cellspacing="0" cellpadding="1" class="ms-listviewtable">
+    <thead>
+      <tr valign="top" class="ms-viewheadertr ms-vhltr">
+        <th scope="col" style="max-width: 500px" class="ms-vh2">
+          <div displayname="Title" class="ms-vh-div">
+            <a class="ms-headerSortTitleLink">Status</a>
+          </div>
+        </th>
+        <th scope="col" style="max-width: 500px" class="ms-vh2">
+          <div displayname="Title" class="ms-vh-div">
+            <a class="ms-headerSortTitleLink">Title</a>
+          </div>
+        </th>
+        <th scope="col" style="max-width: 500px" class="ms-vh2">
+          <div displayname="Comments" class="ms-vh-div">
+            <a class="ms-headerSortTitleLink">Comments</a>
+          </div>
+        </th>
+        <th scope="col" style="max-width: 500px" class="ms-vh2">
+          <div displayname="Contents" class="ms-vh-div">
+            <a class="ms-headerSortTitleLink">Contents</a>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="ms-itmHoverEnabled ms-itmhover"
+          data-ng-repeat="lp in vm.learningPaths">
+        <td class="ms-cellstyle ms-vb2 ms-list-itemLink">
+          <i class="fa fa-cog fa-2x fa-spin" data-ng-show="lp.ApprovedState == 'waiting'"></i>
+          <i class="fa fa-check-circle fa-2x approved" data-ng-show="lp.ApprovedState == 'approved'"></i>
+          <i class="fa fa-minus-circle fa-2x rejected" data-ng-show="lp.ApprovedState == 'rejected'"></i>
+          <i class="fa fa-cog fa-2x" data-ng-show="!lp.ApprovedState" data-ng-click="vm.startApprovalProcess(lp)"></i>
+        </td>
+        <td class="ms-cellstyle ms-vb-title ms-positionRelative" height="100%">
+          <div class="ms-vb  ms-vb-menuPadding itx" data-ng-click="vm.gotoItem(lp)">
+            {{lp.Title}}
+          </div>
+        </td>
+        <td class="ms-cellstyle ms-vb2">
+          <div class="ms-rtestate-field" data-ng-click="vm.gotoItem(lp)">{{lp.OData__Comments}}</div>
+        </td>
+        <td class="ms-vb-lastCell ms-cellstyle ms-vb2 ms-vb-lastCell">
+          <div data-ng-click="vm.learningItemsPath(lp)">
+            <a>view&nbsp;items</a>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

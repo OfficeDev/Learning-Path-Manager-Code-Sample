@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\app.html" Url="app.html" ReplaceContent="TRUE" />
+    <File Path="Pages\appLauncher.html" Url="appLauncher.html" ReplaceContent="TRUE" />
+    <File Path="Pages\WorkflowInitForm.aspx" Url="Pages/WorkflowInitForm.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

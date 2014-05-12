@@ -1,0 +1,106 @@
+﻿/*#region 'Working on it' busy dialog" */
+#lpm-workingOnIt-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background: #ccc /* fallback for old browsers */;
+  background: rgba(204, 204, 204, .5);
+}
+
+#lpm-workingOnIt-message {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 25em;
+  height: 5em;
+  margin: -2em auto 0 -10em /* top is half of height and left is half of width*/;
+  position: absolute;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.6);
+  box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.6);
+  padding: 8px 0px 0px 0px;
+}
+
+.lpm-workingOnIt-accentText {
+  font-size: 36px;
+  font-family: "Segoe UI Light", "Segoe UI", Tahoma, Helvetica, Arial,sans-serif;
+}
+/*#endregion */
+
+/*#region angular dissolve animation */
+.dissolve-animation.ng-hide-remove {
+  display: inline !important;
+}
+
+.dissolve-animation.ng-hide-remove,
+.dissolve-animation.ng-hide-add {
+  -webkit-transition: 0.8s linear all;
+  -moz-transition: 0.8s linear all;
+  -o-transition: 0.8s linear all;
+  transition: 0.8s linear all;
+}
+
+  .dissolve-animation.ng-hide-remove.ng-hide-remove-active,
+  .dissolve-animation.ng-hide-add {
+    opacity: 1;
+  }
+
+    .dissolve-animation.ng-hide-add.ng-hide-add-active,
+    .dissolve-animation.ng-hide-remove {
+      opacity: 0;
+    }
+/*#endregion */
+
+/* animation container - ensure animate only the body of the page*/
+.view-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/*#region angular shuffle animation */
+.shuffle-animation.ng-enter,
+.shuffle-animation.ng-leave {
+    position: relative;
+}
+
+.shuffle-animation.ng-enter {
+    -moz-transition: ease-out all 0.3s 0.4s;
+    -o-transition: ease-out all 0.3s 0.4s;
+    -webkit-transition: ease-out all 0.3s 0.4s;
+    transition: ease-out all 0.3s 0.4s;
+    left: 2em;
+    opacity: 0;
+}
+
+    .shuffle-animation.ng-enter.ng-enter-active {
+        left: 0;
+        opacity: 1;
+    }
+
+.shuffle-animation.ng-leave {
+    -moz-transition: 0.3s ease-out all;
+    -o-transition: 0.3s ease-out all;
+    -webkit-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+    left: 0;
+    opacity: 1;
+}
+
+    .shuffle-animation.ng-leave.ng-leave-active {
+        left: 2em;
+        opacity: 0;
+    }
+/*#endregion */
+
+/*#region approved icons */
+.approved {
+  color: green;
+}
+.rejected {
+  color: maroon;
+}

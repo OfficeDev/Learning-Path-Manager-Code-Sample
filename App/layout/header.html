@@ -1,0 +1,35 @@
+﻿<div data-ng-controller="header as vm"
+     id="s4-titlerow" class="ms-dialogHidden" style="display:block;">
+  <div id="titleAreaBox" class="ms-noList ms-table ms-core-tableNoSpace">
+    <div id="titleAreaRow" class="ms-tableRow">
+      <div id="siteIcon" class="ms-tableCell ms-verticalAlignTop" style="width:180px;">
+        app logo goes here
+      </div>
+      <div class="ms-breadcrumb-box ms-tableCell ms-verticalAlignTop">
+        <div class="ms-breadcrumb-top">
+          <div class="ms-breadcrumb-dropdownBox" style="display:none;">
+            <span id="DeltaBreadcrumbDropdown"></span>
+          </div>
+          <div class="ms-displayInline ms-core-navigation">
+            <div class="noindex ms-core-listMenu-horizontalBox"></div>
+          </div>
+        </div>
+        <h1 id="pageTitle" class="ms-core-pageTitle">
+          <span>
+            <a href="{{vm.appHomeUrl}}" data-ng-bind-html="vm.appTitle"></a>
+          </span>
+          <span>
+            <span>
+              <span style="height:16px;width:16px;position:relative;display:inline-block;overflow:hidden;">
+                <img src="/_layouts/15/images/spcommon.png?rev=23" alt=":" style="position:absolute;left:-109px !important;top:-232px !important;">
+              </span>
+            </span>
+          </span>
+          <span>
+            <span id="ms-pageTitleCurrentNode">{{vm.currentPageTitle}}</span>
+          </span>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>

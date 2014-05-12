@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Learning Items" OnQuickLaunch="TRUE" TemplateType="10001" Url="Lists/LearningItems" Description="Collection of learning items that belong to a learning path.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">SharePoint 2013 - What you need to know</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Blog Post</Field>
+          <Field Name="Url">http://www.andrewconnell.com/blog/SP2013-What-you-need-to-know</Field>
+          <Field Name="_Comments"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Understanding SharePoint 2013 Apps (aka: Apps 101)</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Blog Post</Field>
+          <Field Name="Url">http://www.andrewconnell.com/blog/Understanding-SP2013-Apps-aka-Apps-101</Field>
+          <Field Name="_Comments"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Developer Ramp-Up - Part 1</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://www.pluralsight.com/training/Courses/TableOfContents/cpt-sp2013-dev-ramp-part1</Field>
+          <Field Name="_Comments">In this course students will get up to speed on SharePoint 2013 both from a SKU/license perspective as well as from a capability and architectural perspective. The different deployment models will also be covered in depth (on-premise / hosted [Office 365] / hybrid) and an overview on the different development and extensibility options.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Developer Ramp-Up - Part 2</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://www.pluralsight.com/training/Courses/TableOfContents/cpt-sp2013-dev-ramp-part2</Field>
+          <Field Name="_Comments">SharePoint extensibility has traditionally been done using solution packages (*.wsp’s). The two types of solutions, farm and sandbox, are covered in depth in this module. Students will learn when they are available depending on the deployments, what you can and can’t do with them as scenarios when they are applicable. Next, SharePoint 2013 introduces a new way to extend SharePoint sites: the SharePoint App Model. This module will cover everything students need to know about the SharePoint App Model including how to deploy them to the Marketplace to monetize your projects.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Developer Ramp-Up - Part 3</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://www.pluralsight.com/training/Courses/TableOfContents/cpt-sp2013-dev-ramp-part3</Field>
+          <Field Name="_Comments">In this course you will learn how to create custom application pages as well as content pages and the details around customizing pages. In addition this course will also dive into the aspects of customizing the SharePoint user interface for custom branding experiences as well as customizing and extending the SharePoint Ribbon and how to create custom list views using JavaScript. Additional on-premises only capabilties are covered such as custom field types and field controls.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Developer Ramp-Up - Part 4</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://www.pluralsight.com/training/Courses/TableOfContents/cpt-sp2013-dev-ramp-part4</Field>
+          <Field Name="_Comments">In this course students will learn the basics of security and permissions in SharePoint 2013, specifically AuthN, AuthZ and claims based security. In addition students will also learn how to program with the security API and how to secure SharePoint Apps using app identity, and the new support for OAuth and server-to-server (S2S) authentication/security.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Developer Ramp-Up - Part 5</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://www.pluralsight.com/training/Courses/TableOfContents/cpt-sp2013-dev-ramp-part5</Field>
+          <Field Name="_Comments">In this course you will learn how to create lists and document libraries using the SharePoint development tools in Visual Studio 2012. Students will also learn about the various events in SharePoint 2013 including the new remote event receiver capability. This course covers everything students need to know about building solutions that run on the server and use the SharePoint Server-Side API. You will also learn how to setup LINQ for SharePoint and query lists as well as use the more traditional methods of working with SharePoint data using CAML, SPQuery and SPSiteDataQuery. In this course students will learn how to leverage each of the three client object models (CSOM) implementations in SharePoint projects. In addition students will also learn how to use the new WCF Data Services (OData/REST) and Web Services to access SharePoint data from off the server. Finally this course will cover other client-side development topics such as working with notifications, status messages, toast messages and dialogs.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Developer Ramp-Up - Part 6</Field>
+          <Field Name="LearningPath">1;#SharePoint 2013 Development Overview</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://www.pluralsight.com/training/Courses/TableOfContents/cpt-sp2013-dev-ramp-part6</Field>
+          <Field Name="_Comments">SharePoint 2013 dramatically changes the workflow architecture in the latest release. Workflow is now handled by Azure Workflow Services, both in on-premise and hosted deployments. In this course students will learn how to create custom workflows using SharePoint Designer 2013 and Visual Studio 2012 as well as some of the new capabilities introduced in SharePoint 2013 workflows: dynamic values, stages and remote web service calls. In this course students will learn how to consume and interact with external data sources as well as how to create a custom .NET Assembly Connector. In addition students will also learn how to create BCS-enabled SharePoint Apps and some of the new support for remote callouts as well as how to work with BCS via the client-side object model. Previous versions of SharePoint included various search implementations between SharePoint search and FAST search. In SharePoint 2013 Microsoft merged their search implementations into a single, unified search architecture with a powerful and robust search API that is accessible both in server-side and client-side solutions. In this course students will learn about the search architecture as well as how to leverage it in custom solutions.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">How to: Create a basic SharePoint-hosted app</Field>
+          <Field Name="LearningPath">2;#SharePoint 2013 App Development</Field>
+          <Field Name="ItemType">Article</Field>
+          <Field Name="Url">http://msdn.microsoft.com/en-us/library/sharepoint/fp142379(v=office.15).aspx</Field>
+          <Field Name="_Comments"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Understanding SharePoint 2013: Part 6 - SharePoint Apps Basics</Field>
+          <Field Name="LearningPath">2;#SharePoint 2013 App Development</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/understanding-sharepoint2013-office365-apps</Field>
+          <Field Name="_Comments">Apps are perhaps the biggest change between SharePoint 2010 and 2013. But how ready is the App Model? Is it even worth spending the time learning it, and if you do learn it, what is the best, clearest way of making it stick inside our minds with 100-percent clarity on what works? More importantly, what doesn't work? This course "uncloudifies" this cloud-ready technology.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Development: Client Object Model and REST API</Field>
+          <Field Name="LearningPath">3;#SharePoint 2013 Client-Side / Remote Development</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/sharepoint-2013-client-object-model-rest</Field>
+          <Field Name="_Comments">In the last several years Web development has seen a noticeable shift from server-side to client-side development. It’s taken a while but we’re starting to see this shift in the SharePoint development space as well. To support developers who want to do more on the client-side and to make it possible to build interesting applications using the SharePoint 2013 App Model, Microsoft has made significant enhancements to both the Client Object Model (CSOM) and the REST API. This course covers the fundamental use of these APIs, discusses how they have evolved in SharePoint 2013, and highlights many of the their new features.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Developing SharePoint 2013 Solutions with JavaScript</Field>
+          <Field Name="LearningPath">3;#SharePoint 2013 Client-Side / Remote Development</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/developing-sharepoint-2013-javascript</Field>
+          <Field Name="_Comments">SharePoint 2013 has promoted JavaScript to a first-class language with which all SharePoint developers must be familiar. User expectations and the "state of the web" have made it critically important for all SharePoint developers to be able to write solid, reliable, performant JavaScript. This course takes you from 0 to 60 in your SharePoint JavaScript development, starting from a basic review of core concepts to detailed coverage of everything you need to know to include JavaScript as part of your SharePoint solutions. This includes coverage of the enhanced REST interface, the JavaScript Object Model, key third-party libraries as well as how to take advantage of out-of-the-box capabilities provided by SharePoint. Along the way, modern JavaScript capabilities are put to use in both the presentation materials as well as the demonstrations. Those new to JavaScript as well as experienced developers will find the material in this course helps them understand and get better at developing SharePoint 2013 Solutions with JavaScript.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Workflow - Fundamentals</Field>
+          <Field Name="LearningPath">4;#SharePoint 2013 Workflow</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/sharepoint2013-workflow-fundamentals</Field>
+          <Field Name="_Comments">Workflow changed quite a bit in the SharePoint 2013 release from previous versions of SharePoint. The new workflow platform is implemented with a new product called Workflow Manager 1.0. In this course you will learn all the fundamentals for creating custom workflows in SharePoint 2013 using Workflow Manager 1.0. This includes using tools designed for the power user such as Visio 2013 and SharePoint Designer 2013 as well as the primary tool for the developer: Visual Studio 2012.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Workflow - Advanced Topics</Field>
+          <Field Name="LearningPath">4;#SharePoint 2013 Workflow</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/sharepoint2013-workflow-advanced-topics</Field>
+          <Field Name="_Comments">Workflow changed quite a bit in the SharePoint 2013 release from previous versions of SharePoint. The new workflow platform is implemented with a new product called Workflow Manager 1.0. This course builds off what you learned in the "SharePoint 2013 Workflow - Fundamentals" course. In this course, you will learn how SharePoint 2013, Workflow Manager 1.0 and Service Bus 1.0 interact to create a robust, reliable and scalable workflow platform, how to do advanced debugging of workflows you are creating, as well as how to perform common tasks in today's business world. This includes learning how to create custom forms, leverage the new Workflow Services client APIs and how to create custom actions and activities for Visual Studio and SharePoint Designer authored workflows.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Workflow - Web Services</Field>
+          <Field Name="LearningPath">4;#SharePoint 2013 Workflow</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/sharepoint-2013-workflow-web-services</Field>
+          <Field Name="_Comments">Workflow changed quite a bit in the SharePoint 2013 release from previous versions of SharePoint. The new workflow platform is implemented with a new product called Workflow Manager 1.0. This course builds off what you learned in the SharePoint 2013 Workflow - Fundamentals and the SharePoint 2013 Workflow - Advanced Topics courses. In this course you will learn how to work with web services in your SharePoint 2013 workflows to meet today's business requirements. You will learn how to read and write to anonymous web services and how to authenticate and interact with the SharePoint 2013 REST API from both SharePoint Designer and Visual Studio when the provided activities don't provide the necessary tools to complete the task. Finally you will also learn how to communicate with secured web services including third party OAuth secured services and how to deploy, and interact, with your own custom secured web services.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Andrew Connell's Blog Posts on SharePoint 2013 Workflow</Field>
+          <Field Name="LearningPath">4;#SharePoint 2013 Workflow</Field>
+          <Field Name="ItemType">Blog Post</Field>
+          <Field Name="Url">http://www.andrewconnell.com/Tags/Workflow</Field>
+          <Field Name="_Comments">Various blog posts related to SharePoint 2013 workflow development.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AngularJS</Field>
+          <Field Name="LearningPath">6;#AngularJS: Browser-based Client Side Presentation Framework</Field>
+          <Field Name="ItemType">Article</Field>
+          <Field Name="Url">http://angularjs.org/</Field>
+          <Field Name="_Comments"> AngularJS is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!</Field>
+        </Row>
+        <Row>
+          <Field Name="Title"></Field>
+          <Field Name="LearningPath">6;#AngularJS: Browser-based Client Side Presentation Framework</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/show-me-angular</Field>
+          <Field Name="_Comments"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Application Building Patterns with AngularJS</Field>
+          <Field Name="LearningPath">6;#AngularJS: Browser-based Client Side Presentation Framework</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url"></Field>
+          <Field Name="_Comments">Our focus is building an application. This means we're going to be less conceptual (as you might find with typical training approaches) and more pragmatic: what we need to know and do to get the job done.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Angular Best Practices</Field>
+          <Field Name="LearningPath">6;#AngularJS: Browser-based Client Side Presentation Framework</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/angular-best-practices</Field>
+          <Field Name="_Comments">In this course you will take your AngularJS development to the next level by taking a deeper look at developing web applications with Angular. Building on the topics taught in the Angular Fundamentals course, you will take a deeper dive into the components of Angular: Controllers, Services, Filters, Directives, and Views. You will learn techniques that will help you in building applications bigger than tiny sample apps, such as organizing your code, breaking down a page into components, and communicating with the server. You will learn many patterns for more effective development such as patterns for cross-component communication, and patterns for creating an actual model layer. By the end of this course you should feel comfortable embarking upon a medium to large size application in AngularJS.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">AngularJS Fundamentals</Field>
+          <Field Name="LearningPath">6;#AngularJS: Browser-based Client Side Presentation Framework</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/angularjs-fundamentals</Field>
+          <Field Name="_Comments">This course will teach you the AngularJS fundamentals required to create testable, MVC-style single page applications with AngularJS.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Single Page Apps Jumpstart</Field>
+          <Field Name="LearningPath">5;#Single Page Applications</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://www.pluralsight.com/training/Courses/TableOfContents/single-page-apps-jumpstart</Field>
+          <Field Name="_Comments">Build a Single Page Application (SPA), in JavaScript and HTML, with a rich user experience and runs on almost any device! Start from File | New project and build a fully functional SPA with multiple pages, insert, update, delete, validation, and more. We'll explore and build with the ASP.NET Hot Towel SPA template as well as powerful JavaScript libraries such as Durandal, Breeze, Knockout, toastr, Twitter Bootstrap, and jQuery.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Single Page Apps with HTML5, Web API, Knockout and jQuery</Field>
+          <Field Name="LearningPath">5;#Single Page Applications</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/spa</Field>
+          <Field Name="_Comments">Single Page Applications (SPA's) focus on delivering rich user experiences with significant client-side interactions using JavaScript, HTML5, and CSS. In this course I'll explore how to build end to end SPA solutions using data binding and MVVM on the client, data services for abstracted calls, navigation and routing, responsive design for mobility, and local storage. On the server, we will explore layered patterns, ASP.NET Web API for RESTful services returning JSON, and Entity Framework Code First for data access.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Building Apps with Angular and Breeze - Part 1</Field>
+          <Field Name="LearningPath">5;#Single Page Applications</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/TableOfContents/build-apps-angular-breeze</Field>
+          <Field Name="_Comments">Build a Single Page Application (SPA) from scratch using JavaScript, Angular, and Breeze. Learn how to combine the Angular presentation framework, rich data features of Breeze, and raw features of JavaScript, CSS, and HTML5 to create robust modern web applications.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Building Apps with Angular and Breeze - Part 2</Field>
+          <Field Name="LearningPath">5;#Single Page Applications</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="Url">http://pluralsight.com/training/Courses/Description/build-apps-angular-breeze-part2</Field>
+          <Field Name="_Comments">Build a SPA from scratch using JavaScript, Angular, and Breeze. Learn how to combine the Angular presentation framework, rich data features of Breeze, and raw features of JavaScript, CSS, and HTML5 to create robust modern web applications.</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

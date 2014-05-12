@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C12EB3F-7A41-4FE2-BC0F-A438C3A1A140}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LearningPathManager</RootNamespace>
+    <AssemblyName>LearningPathManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{04722270-349c-47be-b252-ca9e1fa46c7d}</AppFeaturePartId>
+    <WspPartId>{04e858ee-80f6-48cd-9833-ea9a239c2289}</WspPartId>
+    <WorkflowPartId>{1e115ed2-7149-4eef-b22f-2719ea2785ae}</WorkflowPartId>
+    <CspkgPartId>{824f3886-9bb2-47c8-9b6e-a996103bfd1e}</CspkgPartId>
+    <SqlPackagePartId>{4492c34d-db80-4bd7-8796-1b384b77455b}</SqlPackagePartId>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="App\appLauncher.js" />
+    <Content Include="App\common\common.js" />
+    <Content Include="App\common\logger.js" />
+    <Content Include="App\config.angular.http.js" />
+    <Content Include="App\config.exceptionHandler.js" />
+    <Content Include="App\config.js" />
+    <Content Include="App\config.route.js" />
+    <Content Include="App\dashboard\dashboard.html" />
+    <Content Include="App\dashboard\dashboard.js" />
+    <Content Include="App\layout\header.html" />
+    <Content Include="App\layout\header.js" />
+    <Content Include="App\layout\quicklaunch.html" />
+    <Content Include="App\layout\quicklaunch.js" />
+    <Content Include="App\layout\shell.js" />
+    <Content Include="App\layout\spAppChrome.html" />
+    <Content Include="App\layout\spAppChrome.js" />
+    <Content Include="App\layout\workingonit.html" />
+    <Content Include="App\layout\workingonit.js" />
+    <Content Include="App\learningItem\learningItems.js" />
+    <Content Include="App\learningItem\learningItems.html" />
+    <Content Include="App\learningItem\learningItemsDetail.html" />
+    <Content Include="App\learningItem\learningItemsDetail.js" />
+    <Content Include="App\learningPath\learningPaths.html" />
+    <Content Include="App\learningPath\learningPaths.js" />
+    <Content Include="App\learningPath\learningPathsDetail.html" />
+    <Content Include="App\learningPath\learningPathsDetail.js" />
+    <Content Include="App\models\learningItem.js" />
+    <Content Include="App\models\learningPath.js" />
+    <Content Include="App\services\datacontext.angular.js" />
+    <Content Include="App\services\spContext.js" />
+    <Content Include="App\services\spWorkflow.js" />
+    <Content Include="App\util\jquery-extensions.js" />
+    <Content Include="App\workflowform\initform.html" />
+    <Content Include="App\workflowform\initform.js" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\info.png" />
+    <Content Include="Images\success.png" />
+    <Content Include="Images\warning.png" />
+    <Content Include="Data\WorkflowHistoryList\Elements.xml" />
+    <Content Include="Data\WorkflowTaskList\Elements.xml" />
+    <None Include="ApproveLearningPathWorkflow\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{82f78de7-d789-43c3-aa37-40d87fed5b35}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\LearningItemList\LearningItemListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4c9d7cf9-382b-4996-9d99-279e6eb219bc}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\LearningItemList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{16a93e43-9b6d-41b0-ab8d-46a36d841fa3}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\LearningPathList\LearningPathListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c1501d97-cf1c-401c-84bf-63dfa7096987}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\LearningPathList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4821229f-8b58-43d7-bff3-e4aac085ad71}</SharePointProjectItemId>
+    </None>
+    <Content Include="App\app.js" />
+    <Content Include="App\layout\shell.html" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fa92c9e2-9ddf-45b3-9d74-d41d48c05f9b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Data\LearningItemList\Elements.xml" />
+    <Content Include="Data\LearningItemList\LearningItemListInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\LearningItemList\Schema.xml" />
+    <Content Include="Data\LearningPathList\Elements.xml" />
+    <Content Include="Data\LearningPathList\LearningPathListInstance\Elements.xml" />
+    <Content Include="Data\LearningPathList\Schema.xml" />
+    <Content Include="Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <None Include="Scripts\angular-animate.min.js.map">
+      <DependentUpon>angular-animate.js</DependentUpon>
+    </None>
+    <None Include="Scripts\angular-cookies.min.js.map">
+      <DependentUpon>angular-cookies.js</DependentUpon>
+    </None>
+    <None Include="Scripts\angular-resource.min.js.map">
+      <DependentUpon>angular-resource.js</DependentUpon>
+    </None>
+    <None Include="Scripts\angular.min.js.map">
+      <DependentUpon>angular.js</DependentUpon>
+    </None>
+    <None Include="Scripts\jquery-1.9.1.min.map">
+      <DependentUpon>jquery-1.9.1.js</DependentUpon>
+    </None>
+    <None Include="Scripts\moment.min.js.map">
+      <DependentUpon>moment.js</DependentUpon>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6e9d39b6-7315-4df9-bfac-91be1a0ae8c9}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\WorkflowHistoryList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6ee1ca02-ddfb-4cff-b2fd-29f634c0ea06}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\WorkflowTaskList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c49eed0a-5ee1-4c3d-9b11-44890a71d458}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\angular-route.min.js.map">
+      <DependentUpon>angular-route.js</DependentUpon>
+    </None>
+    <None Include="Scripts\angular-sanitize.min.js.map">
+      <DependentUpon>angular-sanitize.js</DependentUpon>
+    </None>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4492c34d-db80-4bd7-8796-1b384b77455b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\app.html" />
+    <Content Include="Pages\appLauncher.html" />
+    <Content Include="Pages\WorkflowInitForm.aspx" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-animate.min.js">
+      <DependentUpon>angular-animate.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\angular-cookies.js" />
+    <Content Include="Scripts\angular-cookies.min.js">
+      <DependentUpon>angular-cookies.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-resource.min.js">
+      <DependentUpon>angular-resource.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-route.min.js">
+      <DependentUpon>angular-route.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\angular-sanitize.js" />
+    <Content Include="Scripts\angular-sanitize.min.js">
+      <DependentUpon>angular-sanitize.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js">
+      <DependentUpon>angular.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js">
+      <DependentUpon>jquery-1.9.1.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js">
+      <DependentUpon>jquery-1.9.1.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\moment-with-langs.js" />
+    <Content Include="Scripts\moment-with-langs.min.js">
+      <DependentUpon>moment-with-langs.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js">
+      <DependentUpon>moment.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{73900f50-1c34-42e2-a96b-eba70aa1a173}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1081d03d-8848-448b-a4a6-012ba88178ab}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{f04039fe-c920-4946-98c9-9d0b5144832f}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{39bda8f6-8b22-4160-adcb-bfae5e3e5bed}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="ApproveLearningPathWorkflow\Workflow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+</Project>

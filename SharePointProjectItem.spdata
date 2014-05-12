@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="App\app.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\shell.html" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\shell.js" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\common\logger.js" Target="App\common\" Type="ElementFile" />
+    <ProjectItemFile Source="App\common\common.js" Target="App\common\" Type="ElementFile" />
+    <ProjectItemFile Source="App\config.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\config.exceptionHandler.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\config.route.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningPath\learningPaths.html" Target="App\learningPath\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningPath\learningPaths.js" Target="App\learningPath\" Type="ElementFile" />
+    <ProjectItemFile Source="App\util\jquery-extensions.js" Target="App\util\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningItem\learningItems.js" Target="App\learningItem\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningItem\learningItems.html" Target="App\learningItem\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\spAppChrome.html" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\spAppChrome.js" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\appLauncher.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\services\spContext.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\quicklaunch.html" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\quicklaunch.js" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\header.html" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\header.js" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\dashboard\dashboard.html" Target="App\dashboard\" Type="ElementFile" />
+    <ProjectItemFile Source="App\dashboard\dashboard.js" Target="App\dashboard\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningPath\learningPathsDetail.html" Target="App\learningPath\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningPath\learningPathsDetail.js" Target="App\learningPath\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningItem\learningItemsDetail.html" Target="App\learningItem\" Type="ElementFile" />
+    <ProjectItemFile Source="App\learningItem\learningItemsDetail.js" Target="App\learningItem\" Type="ElementFile" />
+    <ProjectItemFile Source="App\models\learningPath.js" Target="App\models\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\workingonit.html" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\layout\workingonit.js" Target="App\layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\services\datacontext.angular.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="App\config.angular.http.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\models\learningItem.js" Target="App\models\" Type="ElementFile" />
+    <ProjectItemFile Source="App\workflowform\initform.html" Target="App\workflowform\" Type="ElementFile" />
+    <ProjectItemFile Source="App\workflowform\initform.js" Target="App\workflowform\" Type="ElementFile" />
+    <ProjectItemFile Source="App\services\spWorkflow.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\fontawesome-webfont.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\FontAwesome.otf" Target="fonts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

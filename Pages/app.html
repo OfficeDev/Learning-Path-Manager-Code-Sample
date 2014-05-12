@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" data-ng-app="app">
+<head>
+  <meta charset="utf-8" />
+  <title data-ng-bind="'Learning Path Manager' + pageTitle"></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+  <!-- vendor styles -->
+  <link href="/_layouts/15/1033/styles/forms.css" rel="stylesheet" />
+  <link href="Content/font-awesome.css" rel="stylesheet" />
+
+  <!-- my styles -->
+  <link href="Content/App.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="pageWidth">
+    <div data-ng-include="'App/layout/spAppChrome.html'"></div>
+    <div id="s4-workspace" class="ms-core-overlay">
+      <div id="s4-bodyContainer">
+        <div data-ng-include="'App/layout/header.html'"></div>
+        <div id="contentRow">
+          <div data-ng-include="'App/layout/quicklaunch.html'"></div>
+          <div id="contentBox" aria-live="polite" aria-relevant="all">
+            <div data-ng-include="'App/layout/shell.html'"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-ng-include="'App/layout/workingonit.html'"></div>
+
+  <!-- vendor libraries -->
+  <script src="Scripts/jquery-1.9.1.js"></script>
+  <script src="/_layouts/15/MicrosoftAjax.js"></script>
+  <script src="/_layouts/15/init.js"></script>
+  <script src="/_layouts/15/core.js"></script>
+  <script src="/_layouts/15/sp.runtime.js"></script>
+  <script src="/_layouts/15/sp.js"></script>
+  <script src="/_layouts/15/sp.init.js"></script>
+  <script src="/_layouts/15/sp.core.js"></script>
+  <script src="/_layouts/15/1033/strings.js"></script>
+  <script src="/_layouts/15/SP.UI.Controls.js"></script>
+  <script src="/_layouts/15/SP.WorkflowServices.js"></script>
+  <script src="/_layouts/15/clienttemplates.js"></script>
+  <script src="/_layouts/15/clientforms.js"></script>
+  <script src="/_layouts/15/clientpeoplepicker.js"></script>
+  <script src="/_layouts/15/autofill.js"></script>
+  <script src="Scripts/angular.js"></script>
+  <script src="Scripts/angular-cookies.js"></script>
+  <script src="Scripts/angular-route.js"></script>
+  <script src="Scripts/angular-resource.js"></script>
+  <script src="Scripts/angular-sanitize.js"></script>
+  <script src="Scripts/angular-animate.js"></script>
+  <script src="Scripts/moment.js"></script>
+  <script src="Scripts/moment-with-langs.js"></script>
+
+  <!-- my libraries -->
+  <script src="App/util/jquery-extensions.js"></script>
+
+  <!-- app bootstrapping (used to get the app going) -->
+  <script src="App/app.js"></script>
+  <script src="App/config.js"></script>
+  <script src="App/config.angular.http.js"></script>
+  <script src="App/config.exceptionHandler.js"></script>
+  <script src="App/config.route.js"></script>
+
+  <!-- common modules -->
+  <script src="App/common/common.js"></script>
+  <script src="App/common/logger.js"></script>
+
+  <!-- app core -->
+  <script src="App/layout/workingonit.js"></script>
+  <script src="App/models/learningPath.js"></script>
+  <script src="App/models/learningItem.js"></script>
+  <script src="App/layout/spAppChrome.js"></script>
+  <script src="App/layout/header.js"></script>
+  <script src="App/layout/quicklaunch.js"></script>
+  <script src="App/layout/shell.js"></script>
+
+  <!-- app controllers -->
+  <script src="App/dashboard/dashboard.js"></script>
+  <script src="App/learningPath/learningPaths.js"></script>
+  <script src="App/learningPath/learningPathsDetail.js"></script>
+  <script src="App/learningItem/learningItems.js"></script>
+  <script src="App/learningItem/learningItemsDetail.js"></script>
+  <script src="App/workflowform/initform.js"></script>
+
+  <!-- app services -->
+  <script src="App/services/spContext.js"></script>
+  <script src="App/services/spWorkflow.js"></script>
+  <script src="App/services/datacontext.angular.js"></script>
+</body>
+</html>
