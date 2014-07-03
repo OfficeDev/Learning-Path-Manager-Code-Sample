@@ -38,7 +38,9 @@
     // universal method for writing notifications
     function writeLog(message, data, source, showNotification, notificationType) {
       var iconUrl, notiTitle;
-      showNotification = showNotification || true;
+      showNotification = showNotification !== undefined
+        ? showNotification
+        : true;
 
       // write to angular log, & specify error if it is an error
       var write = (notificationType === 'error') ? $log.error : $log.log;
