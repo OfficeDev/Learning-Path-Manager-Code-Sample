@@ -16,7 +16,7 @@
     // init factory
     function init() {
       // set common $http headers
-      $http.defaults.headers.common.Accept = 'application/json;odata=verbose;';
+      $http.defaults.headers.common.Accept = 'application/json;odata=verbose';
 
       common.logger.log("service loaded", null, serviceId);
     }

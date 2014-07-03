@@ -50,7 +50,7 @@
              '$orderBy': 'Choices'
            },
            headers: {
-             'Accept': 'application/json;odata=verbose;'
+             'Accept': 'application/json;odata=verbose'
            }
          }
        });
@@ -68,7 +68,7 @@
             '$select': 'Id,Title,Description,DefaultView'
           },
           headers: {
-            'Accept': 'application/json;odata=verbose;'
+            'Accept': 'application/json;odata=verbose'
           }
         }
       });
@@ -89,14 +89,14 @@
               '$select': 'Id,Title,OData__Comments,Created,Modified'
             },
             headers: {
-              'Accept': 'application/json;odata=verbose;'
+              'Accept': 'application/json;odata=verbose'
             }
           },
           post: {
             method: 'POST',
             headers: {
-              'Accept': 'application/json;odata=verbose;',
-              'Content-Type': 'application/json;odata=verbose;',
+              'Accept': 'application/json;odata=verbose',
+              'Content-Type': 'application/json;odata=verbose',
               'X-RequestDigest': spContext.securityValidation,
               'X-HTTP-Method': 'MERGE',
               'If-Match': currentItem.__metadata.etag
@@ -105,8 +105,8 @@
           delete: {
             method: 'DELETE',
             headers: {
-              'Accept': 'application/json;odata=verbose;',
-              'Content-Type': 'application/json;odata=verbose;',
+              'Accept': 'application/json;odata=verbose',
+              'Content-Type': 'application/json;odata=verbose',
               'X-RequestDigest': spContext.securityValidation,
               'If-Match': '*'
             }
@@ -119,8 +119,8 @@
             post: {
               method: 'POST',
               headers: {
-                'Accept': 'application/json;odata=verbose;',
-                'Content-Type': 'application/json;odata=verbose;',
+                'Accept': 'application/json;odata=verbose',
+                'Content-Type': 'application/json;odata=verbose',
                 'X-RequestDigest': spContext.securityValidation
               }
             }
@@ -151,8 +151,8 @@
             post: {
               method: 'POST',
               headers: {
-                'Accept': 'application/json;odata=verbose;',
-                'Content-Type': 'application/json;odata=verbose;',
+                'Accept': 'application/json;odata=verbose',
+                'Content-Type': 'application/json;odata=verbose',
                 'X-RequestDigest': spContext.securityValidation,
                 'X-HTTP-Method': 'MERGE',
                 'If-Match': currentItem.__metadata.etag
@@ -161,8 +161,8 @@
             delete: {
               method: 'DELETE',
               headers: {
-                'Accept': 'application/json;odata=verbose;',
-                'Content-Type': 'application/json;odata=verbose;',
+                'Accept': 'application/json;odata=verbose',
+                'Content-Type': 'application/json;odata=verbose',
                 'X-RequestDigest': spContext.securityValidation,
                 'If-Match': '*'
               }
@@ -177,7 +177,7 @@
               method: 'POST',
               headers: {
                 'Accept': 'application/json;odata=verbose',
-                'Content-Type': 'application/json;odata=verbose;',
+                'Content-Type': 'application/json;odata=verbose',
                 'X-RequestDigest': spContext.securityValidation
               }
             }
@@ -199,7 +199,7 @@
                 '$filter': 'LearningPath/Id eq ' + learningPathIdFilter
               },
               headers: {
-                'Accept': 'application/json;odata=verbose;'
+                'Accept': 'application/json;odata=verbose'
               }
             },
           });
@@ -210,7 +210,7 @@
             get: {
               method: 'GET',
               headers: {
-                'Accept': 'application/json;odata=verbose;'
+                'Accept': 'application/json;odata=verbose'
               }
             }
           });
