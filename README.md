@@ -6,3 +6,6 @@ The sample demonstrates a SharePoit-Hosted App implemented using the single page
 
 ##For More Details, See Andrew's Course on SharePoint Apps as SPAs
 This demo application is part of a 6-module, 3.5 hour course [Andrew Connell](http://www.andrewconnell.com) published on **[Building SharePoint Apps as Single Page Apps with AnguarJS](http://www.pluralsight.com/training/Courses/TableOfContents/building-sharepoint-apps-spa-angularjs)** in the [Pluralsight](http://www.pluralsight.com) catalog. The course walks you through creating your first SharePoint-Hosted App as a SPA using AngularJS while leveraging SharePoint 2013 lists to store the data used by the application. In addition, the course has an extra module (#5) that demonstrates how to leverage the popular [BreezeJS](http://www.breezejs.com) client-side library to implement change tracking, client caching, rich queries... sort of like Microsoft's Entity Framework ORM but in the client!
+
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
