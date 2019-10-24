@@ -17,7 +17,7 @@ extensions:
 
 # Learning Path Manager - Code Sample
 
-This sample, by [Andrew Connell](http://www.andrewconnell.com) ([@andrewconnell](http://www.twitter.com/andrewconnell)), was used [Jeremy Thake's](http://www.jeremythake.com) session at [TechEd North America 2014](http://northamerica.msteched.com/), session [DEV-B229 - Deep Dive into Developing Advanced Microsoft SharePoint Applications Using Third-Party JavaScript Libraries](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DEV-B229#fbid=AN8G_AhS5Fi).
+This sample, by [Andrew Connell](http://www.andrewconnell.com) ([@andrewconnell](http://www.twitter.com/andrewconnell)), was used [Jeremy Thake's](http://www.jeremythake.com) session at [TechEd North America 2014](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2014), session [DEV-B229 - Deep Dive into Developing Advanced Microsoft SharePoint Applications Using Third-Party JavaScript Libraries](http://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DEV-B229#fbid=AN8G_AhS5Fi).
 
 The sample demonstrates a SharePoint-Hosted App implemented using the single page app (SPA) pattern. It leverages the popular AnguarJS presentation framework for SPA's and utilizes the SharePoint 2013 REST API and client side object model (CSOM).
 
